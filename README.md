@@ -79,28 +79,3 @@ Class Imbalance: Uses SMOTE to oversample the minority class (fraud).
 Models:
 Neural Network: 3-layer model with Dropout for regularization.
 Random Forest: 100 estimators for comparison.
-
-
-Evaluation: Focuses on precision/recall for fraud class to minimize false positives.
-
-Results
-Run the script to see the classification report and confusion matrix for both models. Update this section with your actual results. Example placeholder:
-
-Neural Network:precision    recall  f1-score   support
-0       1.00      0.99      0.99     56864
-1       0.15      0.85      0.26        98
-
-
-Random Forest:precision    recall  f1-score   support
-0       1.00      1.00      1.00     56864
-1       0.81      0.82      0.81        98
-
-
-
-(Note: Results may vary based on random splits and SMOTE sampling.)
-Future Improvements
-
-Add more features (e.g., rolling averages, location mismatch if data available).
-Hyperparameter tuning for both models.
-Experiment with other algorithms (e.g., XGBoost, LightGBM).
-
